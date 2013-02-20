@@ -5,6 +5,8 @@ jQuery(function() {
   DartsLeague.Collections = {};
   DartsLeague.Views = {};
   
+  DartsLeague.TourneysApp = new Backbone.Marionette.Application({});
+    
   /********************************************
    * Models and Collections
    ********************************************/
@@ -56,7 +58,8 @@ jQuery(function() {
   });
   
   DartsLeague.Collections.Tourneys = Backbone.Collection.extend({
-      model: DartsLeague.Models.Tourney
+      model: DartsLeague.Models.Tourney, 
+      url: './assets/json/mock-darts-tourneys.json'
   });
   
 });

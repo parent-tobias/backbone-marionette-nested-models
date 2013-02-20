@@ -17,5 +17,14 @@
     <body>
         <article id="mainContent"></article>
         <footer></footer>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                DartsLeague.TourneysApp.addInitializer(function(options){
+                   DartsLeague.tourneysCollection = new DartsLeague.Collections.Tourneys();
+                   DartsLeague.tourneysCollection.fetch();
+                });
+            });
+        </script>
     </body>
 </html>
