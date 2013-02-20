@@ -50,7 +50,7 @@ jQuery(function() {
   });
   
   // Tourney model/collection
-  DartsLeague.Models.Tourney = Backbone.Collection.extend({
+  DartsLeague.Models.Tourney = Backbone.Model.extend({
       initialize: function(){
           var tourneyGames = new DartsLeague.Collections.TourneyGames(this.get("tourneyGames"));
           this.set("tourneyGames", tourneyGames);
