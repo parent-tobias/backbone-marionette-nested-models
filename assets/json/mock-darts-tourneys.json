@@ -1,0 +1,219 @@
+
+[{
+    "id":"1",
+    "starts":"2013-01-31 19:00:00",
+    "location":"Townville Elks",
+    "title":"Pre-Christmas Tourney",
+    "description":"",
+    "eventGames":[{
+        "id":"17",
+        "event_id":"1",
+        "game_id":"1",
+        "teams":[{
+            "id":"5",
+            "event_game_id":"17",
+            "teamMembers":[{
+                "id":"1",
+                "photo":"https://docs.google.com/file/d/0B76ZaWC9FEo4NHk3XzFyLXo0eHM/edit?usp=sharing",
+                "name":"Tobias Parent",
+                "address":"124 N. Mystreet Rd, Mytown, MA 01505",
+                "tel":"508-999-9999",
+                "email":"parent.tobias@whazza.com"
+            },{
+                "id":"3",
+                "photo":null,
+                "name":"Charlie Brown",
+                "address":"20 Schultz Ln, Toonville, MD 00000",
+                "tel":"777-555-1212",
+                "email":"charlie.brown@aaaaaaugh.com"
+            },{
+                "id":"5",
+                "photo":null,
+                "name":"orpheus",
+                "address":"Underworld",
+                "tel":"000.222.1212",
+                "email":"lyre.lyre.pants.on.fyre@hades.gov"
+            }]            
+        },{
+            "id":"6",
+            "event_game_id":"17",
+            "teamMembers":[{
+                "id":"2",
+                "photo":null,
+                "name":"Dennis Parent",
+                "address":"989 Another Rd., Otherville, CT 06000",
+                "tel":"203-999-9999",
+                "email":"hisemail@anotherserver.net"
+            },{
+                "id":"4",
+                "photo":null,
+                "name":"Contact 4",
+                "address":"another street, anotherTown. ST 88888",
+                "tel":"123-456-7890",
+"email":"foo@barbaz.net"
+            },{
+                "id":"6",
+                "photo":null,
+                "name":"William Tell",
+                "address":"22 Arrow Rd.",
+                "tel":"444.555.1234",
+                "email":"bowyer@applehead.net"
+            }]
+        }],
+        "game":{
+            "id":"1",
+            "game":"Cricket",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/cricket.html"
+        }
+    }]
+},{
+    "id":"2",
+    "starts":"2012-12-27 09:17:00",
+    "location":"My Other place",
+    "title":"This is another event",
+    "description":"This is the description of another event. It will feature darts, drinking and other stuff",
+    "eventGames":[{
+        "id":"19",
+        "event_id":"2",
+        "game_id":"1",
+        "teams":[{
+            "id":"10",
+            "event_game_id":"19"
+        },{
+            "id":"11",
+            "event_game_id":"19"
+        }],
+        "game":{
+            "id":"1",
+            "game":"Cricket",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/cricket.html"
+        }
+    },{"id":"20",
+        "event_id":"2",
+        "game_id":"2",
+        "teams":[{
+            "id":"12",
+            "event_game_id":"20"
+        }],
+        "game":{
+            "id":"2",
+            "game":"301",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/x01.html"
+        }
+    },{
+        "id":"21",
+        "event_id":"2",
+        "game_id":"3",
+        "teams":[{
+            "id":"13",
+            "event_game_id":"21"
+        }],
+        "game":{
+            "id":"3",
+            "game":"501",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/x01.html"
+        }
+    }]
+},{
+    "id":"3",
+    "starts":"2012-12-19 19:00:00",
+    "location":"FooShop on the corner",
+    "title":"Another event",
+    "description":"",
+    "eventGames":[{
+        "id":"27",
+        "event_id":"3",
+        "game_id":"1",
+        "game":{
+            "id":"1",
+            "game":"Cricket",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/cricket.html"
+        }
+    },{
+        "id":"28",
+        "event_id":"3",
+        "game_id":"2",
+        "game":{
+            "id":"2",
+            "game":"301",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/x01.html"
+        }
+    }]
+},{
+    "id":"4",
+    "starts":"2012-12-26 16:00:00",
+    "location":"Nancy's Bar",
+    "title":"Fooville New Years' thing",
+    "description":"",
+    "eventGames":[{
+        "id":"52",
+        "event_id":"4",
+        "game_id":"1",
+        "game":{
+            "id":"1",
+            "game":"Cricket",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/cricket.html"
+        }
+    },{
+        "id":"53",
+        "event_id":"4",
+        "game_id":"2",
+        "game":{
+            "id":"2",
+            "game":"301",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/x01.html"
+        }
+    }]
+},{
+    "id":"5",
+    "starts":"2012-12-28 17:00:00",
+    "location":"Nancy's Bar",
+    "title":"Fooville New Years' thing II",
+    "description":"Another one",
+    "eventGames":[{
+        "id":"54",
+        "event_id":"5",
+        "game_id":"1",
+        "game":{
+            "id":"1",
+            "game":"Cricket",
+            "team_min":"1",
+            "team_max":"4",
+            "rounds_min_to_win":"2",
+            "rounds_max":"3",
+            "url":"http:\/\/www.a1darts.com\/dart_rules\/cricket.html"
+        }
+    }]
+}]
