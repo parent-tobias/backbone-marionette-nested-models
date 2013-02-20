@@ -89,6 +89,7 @@ jQuery(function() {
 		}
 	});
 	DartsLeague.Collections.Tourneys = Backbone.Collection.extend({
-		model: DartsLeague.Models.Tourney
+		model: DartsLeague.Models.Tourney,
+        url: './assets/json/mock-darts-tourneys.json'
 	});
 });
