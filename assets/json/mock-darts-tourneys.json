@@ -5,13 +5,13 @@
     "location":"Townville Elks",
     "title":"Pre-Christmas Tourney",
     "description":"",
-    "eventGames":[{
+    "tourneyGames":[{
         "id":"17",
-        "event_id":"1",
+        "tourney_id":"1",
         "game_id":"1",
         "teams":[{
             "id":"5",
-            "event_game_id":"17",
+            "tourney_game_id":"17",
             "teamMembers":[{
                 "id":"1",
                 "photo":"https://docs.google.com/file/d/0B76ZaWC9FEo4NHk3XzFyLXo0eHM/edit?usp=sharing",
@@ -36,7 +36,7 @@
             }]            
         },{
             "id":"6",
-            "event_game_id":"17",
+            "tourney_game_id":"17",
             "teamMembers":[{
                 "id":"2",
                 "photo":null,
@@ -74,18 +74,18 @@
     "id":"2",
     "starts":"2012-12-27 09:17:00",
     "location":"My Other place",
-    "title":"This is another event",
-    "description":"This is the description of another event. It will feature darts, drinking and other stuff",
-    "eventGames":[{
+    "title":"This is another tourney",
+    "description":"This is the description of another tourney. It will feature darts, drinking and other stuff",
+    "tourneyGames":[{
         "id":"19",
-        "event_id":"2",
+        "tourney_id":"2",
         "game_id":"1",
         "teams":[{
             "id":"10",
-            "event_game_id":"19"
+            "tourney_game_id":"19"
         },{
             "id":"11",
-            "event_game_id":"19"
+            "tourney_game_id":"19"
         }],
         "game":{
             "id":"1",
@@ -97,11 +97,11 @@
             "url":"http:\/\/www.a1darts.com\/dart_rules\/cricket.html"
         }
     },{"id":"20",
-        "event_id":"2",
+        "tourney_id":"2",
         "game_id":"2",
         "teams":[{
             "id":"12",
-            "event_game_id":"20"
+            "tourney_game_id":"20"
         }],
         "game":{
             "id":"2",
@@ -114,11 +114,11 @@
         }
     },{
         "id":"21",
-        "event_id":"2",
+        "tourney_id":"2",
         "game_id":"3",
         "teams":[{
             "id":"13",
-            "event_game_id":"21"
+            "tourney_game_id":"21"
         }],
         "game":{
             "id":"3",
@@ -134,11 +134,11 @@
     "id":"3",
     "starts":"2012-12-19 19:00:00",
     "location":"FooShop on the corner",
-    "title":"Another event",
+    "title":"Another tourney",
     "description":"",
-    "eventGames":[{
+    "tourneyGames":[{
         "id":"27",
-        "event_id":"3",
+        "tourney_id":"3",
         "game_id":"1",
         "game":{
             "id":"1",
@@ -151,7 +151,7 @@
         }
     },{
         "id":"28",
-        "event_id":"3",
+        "tourney_id":"3",
         "game_id":"2",
         "game":{
             "id":"2",
@@ -169,9 +169,9 @@
     "location":"Nancy's Bar",
     "title":"Fooville New Years' thing",
     "description":"",
-    "eventGames":[{
+    "tourneyGames":[{
         "id":"52",
-        "event_id":"4",
+        "tourney_id":"4",
         "game_id":"1",
         "game":{
             "id":"1",
@@ -184,7 +184,7 @@
         }
     },{
         "id":"53",
-        "event_id":"4",
+        "tourney_id":"4",
         "game_id":"2",
         "game":{
             "id":"2",
@@ -202,9 +202,9 @@
     "location":"Nancy's Bar",
     "title":"Fooville New Years' thing II",
     "description":"Another one",
-    "eventGames":[{
+    "tourneyGames":[{
         "id":"54",
-        "event_id":"5",
+        "tourney_id":"5",
         "game_id":"1",
         "game":{
             "id":"1",

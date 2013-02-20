@@ -19,6 +19,10 @@ jQuery(function() {
   
   // Team model/collection
   DartsLeague.Models.Team = Backbone.Model.extend({
+      initialize: function(){
+          var teamMembers = new DartsLeague.Collections.Members(this.get("teamMembers"));
+          this.set("teamMembers", teamMembers);
+      }
   });
   
   DartsLeague.Collections.Teams = Backbone.Collection.extend({
@@ -31,6 +35,12 @@ jQuery(function() {
   
   // TourneyGame model/collection
   DartsLeague.Models.TourneyGame = Backbone.Model.extend({
+      initialize: function(){
+          var game = new DartsLeague.Models.Game(this.get('game'));
+          var teams = new DartsLeague.Collections.Teams(this.get('teams'));
+          this.set('game', game);
+          this.set('teams', teams);
+      }
   });
   
   DartsLeague.Collections.TourneyGames = Backbone.Collection.extend({
@@ -39,6 +49,10 @@ jQuery(function() {
   
   // Tourney model/collection
   DartsLeague.Models.Tourney = Backbone.Collection.extend({
+      initialize: function(){
+          var tourneyGames = new DartsLeague.Collections.TourneyGames(this.get("tourneyGames"));
+          this.set("tourneyGames", tourneyGames);
+      }
   });
   
   DartsLeague.Collections.Tourneys = Backbone.Collection.extend({
